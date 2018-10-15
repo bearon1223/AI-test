@@ -3,6 +3,12 @@ void setup(){
   surface.setTitle("PathFinding Test");
 };
 
+entity entity = new entity();
+
+
 void draw(){
   background(255);
+  entity.food();
+  entity.ai();
+  entity.render();
 }
