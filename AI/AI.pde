@@ -1,5 +1,7 @@
 void setup(){
-  size(800, 800);
+  size(1000, 1000);
+  surface.setResizable(true);
+  //fullScreen();
   surface.setTitle("PathFinding Test");
 };
 
